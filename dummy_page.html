@@ -1,0 +1,51 @@
+<body style = "background-color: lightblue;">
+    <div class="main">
+        <!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <link rel="stylesheet" href="css/style.css">
+            </head>
+            
+            <img src="images/logo.png" alt="" width="120" height="95">
+
+             <div class="title">
+                <h2 class="title">Sharing<br>is<br><span style="color: yellow;">CAR</span>ing</h2>
+                <hr>
+             </div>   
+            
+            <div class="sign_in">
+                <h2>SIGN IN</h2>
+                <label for=""><br><input type = "username" placeholder="Username"></label><br>
+                <label for=""><br><input type = "password" placeholder="Password"></label><br>
+                <button class="button"><a href="#">Sign in</a></button>
+                <br><br>
+                <a href="Sign_up.html" class="sign_up" >Don't have an account?</a>
+            </div>
+
+            <br><br><br>
+            
+            <div class="google_maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d104497.99860987488!2d33.29830402266588!3d35.067676818732565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x14de1f993faf5f47%3A0x8539fbddf164885d!2sDali%2C%20Cyprus!3m2!1d35.0195632!2d33.4192946!4m5!1s0x14de1b98d25efabd%3A0x5b3e116a54bb53cd!2sLakatamia%2C%20Cyprus!3m2!1d35.1185656!2d33.3145382!5e0!3m2!1sen!2snl!4v1673358042567!5m2!1sen!2snl"  width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>              
+            </div>
+
+            <table cellspacing="5" class="location">
+                <form action="dummy_page.html" method="get" >
+                
+                    <tr>
+                        <label for="origin"><td>Starting point:</td> <td><input type="text" id="origin" name="origin"></label></td>
+                    </tr>
+                    <tr>
+                        <label for="destination"><td>Destination: </td><td><input type="text" id="destination" name="destination"></label></td>
+                    </tr>
+                    <td>
+                        <br><input type="submit" value="Go!" class="go">
+                    </td>
+
+                </form>
+                <td>
+                    <br><button class = "search"><a href="search.html">Search trips</button>
+                </td>
+            </table>
+        </html>
+    </div>
+</body>
